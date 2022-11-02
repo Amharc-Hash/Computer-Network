@@ -1,0 +1,19 @@
+220 Microsoft FTP Service
+USER demo
+331 Password required for demo.
+PASS password
+230 User logged in.
+SYST
+215 Windows_NT
+PORT 192,168,1,21,215,57
+200 PORT command successful.
+LIST
+125 Data connection already open; Transfer starting.
+226 Transfer complete.
+PORT 192,168,1,21,215,61
+200 PORT command successful.
+RETR readme.txt
+125 Data connection already open; Transfer starting.
+226 Transfer complete.
+QUIT
+221 Goodbye.
